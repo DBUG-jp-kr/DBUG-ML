@@ -1,0 +1,15 @@
+epochs: 300
+learning_rate: 0.05
+momentum: 0.9
+weight_decay: 1e-4
+inference_device: "cuda"
+
+train:
+  batch_size: 128
+  num_workers:
+  validation_size: 
+  data_path: '\AI_EXPO2023\dataset\insect_data'
+
+test:
+
+model: efficietn_b0
